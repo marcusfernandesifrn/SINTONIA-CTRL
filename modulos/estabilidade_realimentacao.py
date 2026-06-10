@@ -13,8 +13,11 @@ from matplotlib.patches import Ellipse
 from scipy.signal import lti, lsim
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+import warnings
         
 def run():
+
+        warnings.filterwarnings("ignore")
         
         # ── Configuração da Página ────────────────────────────────────────────────────
         st.set_page_config(
