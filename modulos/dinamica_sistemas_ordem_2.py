@@ -157,7 +157,8 @@ def run():
         # ═══════════════════════════════════════════════════════════════════════════════
         st.title("📊 Dinâmica no Domínio do Tempo")
         st.subheader("Sistemas de Ordem 2")
-        st.caption("Modelagem e Sistemas Lineares · Engenharia de Energia · IFRN-CNAT · Marcus V A Fernandes")
+        st.caption("🎛️ SINTONIA · Sistemas de Controle · 👤 Marcus V A Fernandes · ✉️ marcus.fernandes@ifrn.edu.br
+")
         st.markdown("---")
         
         # ── Índice ────────────────────────────────────────────────────────────────────
@@ -971,10 +972,9 @@ def run():
         
         st.markdown(
             "<div style='text-align:center;color:gray;font-size:12px'>"
-            "Dinâmica no Domínio do Tempo — Sistemas de Ordem 2 &nbsp;·&nbsp; Modelagem e Sistemas Lineares"
-            " &nbsp;·&nbsp; Engenharia de Energia &nbsp;·&nbsp; CNAT — IFRN<br>"
-            "Autor: Marcus V A Fernandes &nbsp;·&nbsp; marcus.fernandes@ifrn.edu.br"
-            " &nbsp;·&nbsp; v1.0"
+            "📊 Dinâmica no Domínio do Tempo — Sistemas de Ordem 2 &nbsp;·&nbsp; 🎛️ SINTONIA — Sistemas de Controle<br>"
+            "👤 Marcus V A Fernandes &nbsp;·&nbsp; 🏛️ Diretoria de Indústria &nbsp;·&nbsp; IFRN-CNAT"
+            " &nbsp;·&nbsp; 🏷️ v1.0 &nbsp;·&nbsp; 📅 2026"
             "</div>",
             unsafe_allow_html=True,
         )
