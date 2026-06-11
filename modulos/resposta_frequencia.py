@@ -129,7 +129,7 @@ def run():
         # ═══════════════════════════════════════════════════════════════════════════════
         st.title("📉 Resposta em Frequência de Sistemas")
         st.subheader("Diagramas de Bode")
-        st.caption("Modelagem e Sistemas Lineares · Engenharia de Energia · IFRN-CNAT · Marcus V A Fernandes")
+        st.caption("🎛️ SINTONIA · Sistemas de Controle · 👤 Marcus V A Fernandes · ✉️ marcus.fernandes@ifrn.edu.br")
         st.markdown("---")
         
         with st.expander("📋 Índice — clique para expandir", expanded=False):
@@ -1228,10 +1228,9 @@ def run():
         
         st.markdown(
             "<div style='text-align:center;color:gray;font-size:12px'>"
-            "Resposta em Frequência — Parte 1 de 2 &nbsp;·&nbsp; Modelagem e Sistemas Lineares"
-            " &nbsp;·&nbsp; Engenharia de Energia &nbsp;·&nbsp; CNAT — IFRN<br>"
-            "Autor: Marcus V A Fernandes &nbsp;·&nbsp; marcus.fernandes@ifrn.edu.br"
-            " &nbsp;·&nbsp; v1.0"
+            "📉 Resposta em Frequência &nbsp;·&nbsp; 🎛️ SINTONIA — Sistemas de Controle<br>"
+            "👤 Marcus V A Fernandes &nbsp;·&nbsp; 🏛️ Diretoria de Indústria &nbsp;·&nbsp; IFRN-CNAT"
+            " &nbsp;·&nbsp; 🏷️ v1.0 &nbsp;·&nbsp; 📅 2026"
             "</div>",
             unsafe_allow_html=True,
         )
