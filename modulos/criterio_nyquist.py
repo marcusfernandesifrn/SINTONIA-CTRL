@@ -1125,5 +1125,6 @@ def run():
           "👤 Marcus V A Fernandes &nbsp;·&nbsp; 🏛️ Diretoria de Indústria &nbsp;·&nbsp; IFRN-CNAT"
           " &nbsp;·&nbsp; 🏷️ v1.0 &nbsp;·&nbsp; 📅 2026"
           "</div>",
-          unsafe_allow_html=True,
+
+      unsafe_allow_html=True,
       )
