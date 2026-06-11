@@ -1,5 +1,6 @@
 """
-RED — Modelagem e Sistemas Lineares
+SINTONIA — Sistemas de Controle
+Sistemas Interativos para Teoria e Otimização no Nível de Interpretação e Aprendizagem
 streamlit_app.py — Entrypoint principal
 Streamlit >= 1.36 — st.navigation com funções Python como páginas
 """
@@ -8,8 +9,8 @@ import streamlit as st
 import importlib
 
 st.set_page_config(
-    page_title="RED — Modelagem e Sistemas Lineares",
-    page_icon="📘",
+    page_title="SINTONIA — Sistemas de Controle",
+    page_icon="🎛️",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -135,15 +136,16 @@ def _home():
     # ── Hero ──────────────────────────────────────────────────────────────────
     st.markdown("""
 <div class="hero">
-  <h1>📘 Modelagem e<br>Sistemas Lineares</h1>
+  <h1>🎛️ SINTONIA<br><span style="font-size:1.4rem;font-weight:700;opacity:.7">Sistemas de Controle</span></h1>
   <p class="hero-sub">
     <span class="red-badge">RED</span>
-    Recurso Educacional Digital — material didático interativo com exploradores
-    de parâmetros, simulações numéricas e fórmulas LaTeX para o curso de
-    Engenharia de Energia do IFRN-CNAT.
+    <strong>S</strong>istemas <strong>I</strong>nterativos para <strong>T</strong>eoria e <strong>O</strong>timização
+    no <strong>N</strong>ível de <strong>I</strong>nterpretação e <strong>A</strong>prendizagem —
+    material didático interativo com exploradores de parâmetros, simulações numéricas
+    e fórmulas para o estudo de Sistemas de Controle.
   </p>
   <p class="meta-line">
-    🎓 IFRN — CNAT &nbsp;·&nbsp; 🏛️ Engenharia de Energia &nbsp;·&nbsp;
+    🏛️ IFRN — Campus Natal-Central (CNAT) &nbsp;·&nbsp; Diretoria de Indústria &nbsp;·&nbsp;
     👤 Marcus V A Fernandes &nbsp;·&nbsp;
     ✉️ marcus.fernandes@ifrn.edu.br &nbsp;·&nbsp; v1.0 · 2026
   </p>
@@ -158,15 +160,21 @@ def _home():
 """, unsafe_allow_html=True)
 
     # ── Sobre ─────────────────────────────────────────────────────────────────
-    st.markdown("### 📖 Sobre este RED")
+    st.markdown("### 📖 Sobre o SINTONIA")
     st.markdown("""
-Este **Recurso Educacional Digital** cobre a disciplina *Modelagem e Sistemas Lineares*
-do curso de Engenharia de Energia do IFRN-CNAT, com módulos progressivos — de fundamentos
-de sinais até representação em espaço de estados — com ênfase em compreensão visual e
-exploração paramétrica. Cada módulo combina **teoria** com equações e exemplos analíticos,
-**figuras** geradas numericamente e **exploradores interativos** com controles deslizantes e
-campos de entrada para observar o efeito de parâmetros em tempo real, sem necessidade de
-reexecução.
+**SINTONIA** é um Recurso Educacional Digital de acesso livre voltado ao estudo de
+*Sistemas de Controle e Modelagem de Sistemas Lineares*. O material está organizado
+em módulos progressivos — de fundamentos de sinais até representação em espaço de
+estados — com ênfase em compreensão visual e exploração paramétrica.
+
+Cada módulo combina **teoria** com equações e exemplos analíticos, **figuras** geradas
+numericamente e **exploradores interativos** com controles deslizantes e campos de entrada
+para observar o efeito de parâmetros em tempo real, sem necessidade de reexecução.
+
+**Possibilidades de uso:**
+- 🏛️ *Modelagem e Sistemas Lineares* — Engenharia de Energia, IFRN-CNAT
+- 🏛️ *Sistemas de Controle 1* — Engenharia Elétrica, UFRN
+- Demais cursos de Engenharia com disciplinas de Controle e Sistemas Lineares
 """)
 
     # ── Índice completo ───────────────────────────────────────────────────────
@@ -372,7 +380,7 @@ reexecução.
 """)
 
     # ── Cards de módulos ──────────────────────────────────────────────────────
-    st.markdown("### 🗂️ Módulos do curso")
+    st.markdown("### 🗂️ Módulos")
     st.caption("Clique em **Abrir** para acessar o módulo ou use o menu lateral.")
 
     CARDS = [
@@ -516,9 +524,8 @@ reexecução.
     # ── Footer ────────────────────────────────────────────────────────────────
     st.markdown("""
 <div class="page-footer">
-  Modelagem e Sistemas Lineares &nbsp;·&nbsp;
-  Engenharia de Energia &nbsp;·&nbsp; CNAT — IFRN<br>
-  Autor: Marcus V A Fernandes &nbsp;·&nbsp;
+  SINTONIA — Sistemas de Controle &nbsp;·&nbsp; Recurso Educacional Digital de acesso livre<br>
+  Autor: Marcus V A Fernandes &nbsp;·&nbsp; Diretoria de Indústria &nbsp;·&nbsp; IFRN-CNAT<br>
   marcus.fernandes@ifrn.edu.br &nbsp;·&nbsp; v1.0 · 2026
 </div>
 """, unsafe_allow_html=True)
