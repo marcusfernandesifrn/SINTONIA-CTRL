@@ -1120,11 +1120,11 @@ def run():
       
       st.divider()
 
-      "<div style='text-align:center;color:gray;font-size:12px'>"
+      st.markdown(
+          "<div style='text-align:center;color:gray;font-size:12px'>"
           "Critério de Nyquist &nbsp;·&nbsp; SINTONIA — Sistemas de Controle<br>"
           "👤 Marcus V A Fernandes &nbsp;·&nbsp; 🏛️ Diretoria de Indústria &nbsp;·&nbsp; IFRN-CNAT"
           " &nbsp;·&nbsp; 🏷️ v1.0 &nbsp;·&nbsp; 📅 2026"
           "</div>",
-
-      unsafe_allow_html=True,
+          unsafe_allow_html=True,
       )
