@@ -157,8 +157,7 @@ def run():
         # ═══════════════════════════════════════════════════════════════════════════════
         st.title("📊 Dinâmica no Domínio do Tempo")
         st.subheader("Sistemas de Ordem 2")
-        st.caption("🎛️ SINTONIA · Sistemas de Controle · 👤 Marcus V A Fernandes · ✉️ marcus.fernandes@ifrn.edu.br
-")
+        st.caption("🎛️ SINTONIA · Sistemas de Controle · 👤 Marcus V A Fernandes · ✉️ marcus.fernandes@ifrn.edu.br")
         st.markdown("---")
         
         # ── Índice ────────────────────────────────────────────────────────────────────
